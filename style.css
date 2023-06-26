@@ -1,0 +1,25 @@
+.background {
+  background: linear-gradient(#0E2038,#043980);
+
+}
+.login {
+  display: flex;
+  flex: auto;
+  position: absolute;
+  border-radius: 10px;
+  margin-top: -130px;
+  margin-left: -200px;
+  left: 650px;
+  top: 50%;
+  width: 600px;
+  height: 340px;
+  padding-top: 10px;
+  font-family: Quicksand;
+  color: white;
+  background-color: black;
+}
+
+  
+  #password {
+    padding-top: 10px;
+  }

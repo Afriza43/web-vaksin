@@ -1,0 +1,31 @@
+  body{
+  background: linear-gradient(180deg, #0E2038 32.08%, #043980 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  
+  }
+
+  .register{
+    margin: 160px 100px;
+  }
+
+  .masuk{
+    margin: 190px 100px;
+  }
+
+  .sign-in{
+    padding: 10px;
+    background-color: #1E4478;
+    font-family: Quicksand;
+    color: white;
+
+  }
+
+  .btn {
+    color: white;
+    background-color: #1E4478;
+  }

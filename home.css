@@ -1,0 +1,124 @@
+body{
+  font-family : "Quicksand";
+  background-color: white;
+}
+ul.topnav {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg, #0E2038 8.62%, #0A4CA3 118.77%);
+  width: 100%;
+  margin: 0 0 1em 0;
+}
+ul.topnav li {
+  float: right;
+  height: 80px;
+}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {
+  font-weight: bold;
+}
+ul.topnav li a.active {
+  background-color: #1A355A;
+}
+.btn{
+  display: inline-block;
+  background-color: #1A355A;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 28px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.icon{
+  height: 10pt;
+  align-items: center;
+}
+.main{
+  background-color: white;
+  padding : 80px;
+}
+p{
+  font-size: 14pt;
+}
+li{
+  font-size: 12pt;
+}
+.ilustras1{
+  height: 300px;
+  float: left;
+}
+.ilust2asi{
+  height: 300px;
+  float: right;
+}
+.plus2{
+  text-align: right;
+}
+.ilustra3i{
+  height: 300px;
+  float: right;
+}
+.footer{
+  background: linear-gradient(90deg, #0E2038 8.62%, #0A4CA3 118.77%);
+  color: white;
+  list-style: none;
+}
+.inner{
+  padding : 30px;
+  list-style: none;
+}
+.yt{
+  padding-left : 120px;
+  padding-right: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+.foot{
+  padding: 10px;
+  text-align: center;
+}
+hr{
+  width: 20%;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+.line{
+  width: 50%;
+  height: 4 pt;
+  background-color: #0E2038;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.botron{
+    background: linear-gradient(45deg, #0E2038, #0A4CA3, #0E2038, #0A4CA3, #0E2038, #0A4CA3, #0E2038, #0A4CA3 );
+    background-size: 500% 500%;
+    -webkit-animation: botron 12s ease infinite;
+    -moz-animation: botron 12s ease infinite;
+    animation: botron 12s ease infinite;
+}
+@-webkit-keyframes botron {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes botron {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes botron {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

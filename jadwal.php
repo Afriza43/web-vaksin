@@ -1,0 +1,1 @@
+//UPDATE `jadwal` SET `nama_faskes` = 'Puskesmas' WHERE `jadwal`.`id_faskes` = 2
